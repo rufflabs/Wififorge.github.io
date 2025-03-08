@@ -19,7 +19,7 @@ const config: QuartzConfig = {
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: true,
+    generateSocialImages: false, // Change this to false
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -92,4 +92,4 @@ const config: QuartzConfig = {
   },
 }
 
-export default config
+export default config;
