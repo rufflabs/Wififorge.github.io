@@ -86,4 +86,4 @@ It should not take long for aircrack to get the password.
 
 In either of the terminal panes, type main_menu to return to the main menu and onto the next lab. 
 
-NEXT LAB: [[5. Cracking WPA Handshakes with Aircrack-ng]]
+NEXT LAB: [[Lab 05 - Cracking WPA Handshakes with Aircrack-ng]]

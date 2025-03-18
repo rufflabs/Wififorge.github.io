@@ -6,7 +6,7 @@
 
 ## Getting Started in Wireless Security
 
-[[0. Getting Started]]
+[[Lab 00 - Getting Started]]
 
 ## Documentation
 

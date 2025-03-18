@@ -19,7 +19,7 @@ service openvswitch-switch start
 cd /Wifi-Forge/Framework/
 sudo python3 WifiForge.py
 ```
-
+Installing the docker image can take up too an hour but averages 30 minutes.
 ## Installing from source
 This is less simple and may have more issues, however gives you more control over your experience.
 ```bash

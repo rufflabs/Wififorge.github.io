@@ -21,5 +21,5 @@ Allow for up to 30 seconds for the password to be revealed.
 
 You now are familiar with two different methods to collect and crack WPA2 keys. Use the main_menu command to return to the main menu and onto the next lab. 
 
-NEXT LAB: [[6. Airgeddon Denial of Service Beacon Attacks]]
+NEXT LAB: [[Lab 06 - Airgeddon Denial of Service Beacon Attacks]]
 

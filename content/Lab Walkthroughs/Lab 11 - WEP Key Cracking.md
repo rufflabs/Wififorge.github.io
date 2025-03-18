@@ -78,7 +78,7 @@ The above command will begin attempting to crack the WEP key. Successful decrypt
 
 This completes all the labs in this series. Please return to the main menu using the main_menu command before leaving. 
 
-RESET: [[0. Getting Started]]
+RESET: [[Lab 00 - Getting Started]]
 
 
 Thanks! :)

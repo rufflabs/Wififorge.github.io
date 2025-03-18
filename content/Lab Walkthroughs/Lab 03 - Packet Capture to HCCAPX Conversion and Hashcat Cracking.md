@@ -1,14 +1,14 @@
 Select "Bettercap Recon" from the menu. Allow up to 30 seconds to initialize the network. 
 
-![[Pasted image 20250125093120.png]]
+![[Pasted image 20250318000618.png]]
 
-Two panes will appear in the resulting screen. One represents the attacking machine "a" (1). The other panel represents the host machine from which you will launch a browser session. 
+Two panes will appear in the resulting screen. One represents the attacking machine "**a**" (1). The other panel represents the host machine from which you will launch a browser session. 
 
-![[Pasted image 20250120131124.png]]
+![[Pasted image 20250318000917.png]]
 
 Click the area within the host_machine panel to ensure that the host machine terminal is selected. Type the following command to open a browser window. 
 
-```
+```bash
 /Wifi-Forge/Framework/materials/browser linux
 ```
 
@@ -18,7 +18,7 @@ Ignore any errors that appear on the command line. Wait for a chrome browser to 
 
 Insert the following filepath into your browser.
 
-```
+```bash
 file:///Wifi-Forge/Framework/materials/hashcat.net/cap2hashcat/index.html
 ```
 
@@ -50,4 +50,4 @@ When it succeeds, the most likely passwords will be revealed (in this case, the 
 
 In either of the terminal panes, type main_menu to return to the main menu and onto the next lab. 
 
-NEXT LAB: [[4. Airsuite Tools - Recon and Pre-Shared Key Recovery]]
+NEXT LAB: [[Lab 04 - Airsuite Tools - Recon and Pre-Shared Key Recovery]]

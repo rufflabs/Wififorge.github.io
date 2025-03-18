@@ -24,4 +24,4 @@ Hashes are saved to /Wifi-Forge/Framework/loot/ under the filename wpa_handshake
 
 Use the main_menu command to return to the main menu and onto the next lab.
 
-NEXT LAB: [[7. Capture Active Directory Credentials with Evil-Twin Attack]]
+NEXT LAB: [[Lab 07 - Capture Active Directory Credentials with Evil-Twin Attack]]

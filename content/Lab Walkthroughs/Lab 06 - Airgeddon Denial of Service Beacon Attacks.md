@@ -52,5 +52,5 @@ Service on this network has been denied!
 
 When finished, close the xterm window and wait for the main menu to appear. 
 
-NEXT LAB: [[7. Capture Active Directory Credentials with Evil-Twin Attack]]
+NEXT LAB: [[Lab 07 - Capture Active Directory Credentials with Evil-Twin Attack]]
 

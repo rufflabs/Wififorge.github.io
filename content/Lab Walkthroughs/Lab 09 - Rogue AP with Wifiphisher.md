@@ -77,5 +77,5 @@ The password you entered will appear in the attacker console under the HTTP requ
 
 Use the main_menu command to return to the main menu and onto the next lab. 
 
-NEXT LAB: [[10. WPS Exploitation]]
+NEXT LAB: [[Lab 10 - WPS Exploitation]]
 

@@ -18,5 +18,5 @@ Eventually, John will crack the password as seen in the screenshot below.
 
 Use the main_menu command to return to the main menu and onto the next lab. 
 
-NEXT LAB: [[9. Rogue AP with Wifiphisher]]
+NEXT LAB: [[Lab 09 - Rogue AP with Wifiphisher]]
 
