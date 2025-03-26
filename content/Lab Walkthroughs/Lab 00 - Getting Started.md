@@ -17,12 +17,12 @@ Use the **UP** and **DOWN** arrow keys to navigate the menu. Press **ENTER** to 
 ![[2025-03-17_23-18.png]]
 *Ignore any older commands that appear in the terminal - these are just for housekeeping*
 
-This is the interface you will have to work with for the majority of labs. Note the name of the node (a) in the upper left hand corner of the terminal window. This is the name of a simulated machine on the network. The attacking machine is always called "a" and will normally be the only machine you interact with. However, a handful of labs may require you to simulate user behavior or have multiple CLIs on the same machine. In these cases, you will be provided with a multi-pane view similar to the one below: 
+This is the interface you will have to work with for the majority of labs. Note the name of the node (Attacker) in the upper left hand corner of the terminal window. This is the name of a simulated machine on the network. The attacking machine is always called "Attacker" and will normally be the only machine you interact with. However, a handful of labs may require you to simulate user behavior or have multiple CLIs on the same machine. In these cases, you will be provided with a multi-pane view similar to the one below: 
 
 ![[Pasted image 20250317233007.png]]
 *pane borders are more clearly defined in the actual lab - they don't show up well in the screenshot tool.*
 
-Note here that the screen allows access to three different hosts: your attacking machine "**a**" and one victim "**host_machine**". You can access the terminals of each of these machines by clicking within the pane that represents the host you want to interact with. 
+Note here that the screen allows access to two different hosts: your attacking machine "**Attacker**" and one victim "**host_machine**". You can access the terminals of each of these machines by clicking within the pane that represents the host you want to interact with. 
 
 # Done with the Lab?
 To exit a lab, simply type ```main_menu``` into any of the terminal panes to return to the main menu. 
