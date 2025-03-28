@@ -48,7 +48,7 @@ Select option 8 (Beacon Flood Attack). If prompted to activate DoS pursuit mode,
 
 Service on this network has been denied!
 
-When finished, press \[CTRL + c] to close the window and enter `main_menu` to return to the main menu. 
+When finished, press \[CTRL + c] to close the window and exit airgeddon. Enter `main_menu` to return to the main menu. 
 
 NEXT LAB: [[Lab 07 - Capture Active Directory Credentials with Evil-Twin Attack]]
 
