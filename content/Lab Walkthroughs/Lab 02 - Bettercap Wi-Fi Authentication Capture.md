@@ -8,10 +8,10 @@ Select "Bettercap Recon" from the menu. Allow up to 30 seconds to initialize the
 
 Note: normally, when using Bettercap with physical network cards, it is necessary to use `airmon-ng check kill` to kill processes that may interfere with Bettercap. However, running this command in the mininet-wifi network is unnecessary and may cause the environment to fail. 
 
-Start by setting the interface `a-wlan0` into monitor mode to analyze the wireless spectrum around us.
+Start by setting the interface `Attacker-wlan0` into monitor mode to analyze the wireless spectrum around us.
 
 ```bash
-airmon-ng start a-wlan0
+airmon-ng start Attacker-wlan0
 ```
 
 If the following prompt appears, input "**y**" and hit enter. 
@@ -25,17 +25,17 @@ Successful initialization will appear as pictured below.
 Verify that the interface has been put into monitor mode using the following command:
 
 ```bash
-ifconfig | grep flags
+iwconfig
 ```
 
-As pictured below, a-wlan0mon should now be present. 
+As pictured below, the interface `wlan0mon` should now be present in monitor mode.
 
 ![[Pasted image 20250318001757.png]]
 
 Launch Bettercap with the following command. 
 
 ```bash
-bettercap -iface a-wlan0mon
+bettercap -iface wlan0mon
 ```
 
 You will be greeted by a prompt of with the name of the network interface. 
