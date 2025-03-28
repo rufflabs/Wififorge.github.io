@@ -1,4 +1,4 @@
-Select "Eaphammer Cred Capture" from the menu. Allow up to 30 seconds to initialize the network. 
+Select "Evil Twin" from the menu. Allow up to 30 seconds to initialize the network. 
 
 ![[Pasted image 20250125094159.png]]
 
