@@ -1,8 +1,8 @@
-Select "Bettercap Recon" from the menu. Allow up to 30 seconds to initialize the network. 
+Select "Packet Capture To Hccapx Hashcat Cracking" from the menu. Allow up to 30 seconds to initialize the network. 
 
 ![[Pasted image 20250318000618.png]]
 
-Two panes will appear in the resulting screen. One represents the attacking machine "**a**" (1). The other panel represents the host machine from which you will launch a browser session. 
+Two panes will appear in the resulting screen. One represents the attacking machine "**Attacker**" (1). The other panel represents the host machine from which you will launch a browser session. 
 
 ![[Pasted image 20250318000917.png]]
 
