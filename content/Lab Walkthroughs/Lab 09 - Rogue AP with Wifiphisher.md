@@ -2,11 +2,11 @@ Select "Wifiphisher" from the menu. Allow up to 30 seconds to initialize the net
 
 ![[Pasted image 20250125094249.png]]
 
-Two panes will appear on your terminal. Pane "a" represents the machine that will be launching our attack. The "host1" pane will give us a view of the attack from the victim's perspective. 
+Two panes will appear on your terminal. Pane "Attacker" represents the machine that will be launching our attack. The "host1" pane will give us a view of the attack from the victim's perspective. 
 
 ![[Pasted image 20250122094110.png]]
 
-Select the attacker panel by clicking within the "a" pane. Within this pane, type the following command. 
+Select the attacker panel by clicking within the "Attacker" pane. Within this pane, type the following command. 
 
 ```
 wifiphisher -h
