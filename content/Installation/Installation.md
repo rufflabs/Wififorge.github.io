@@ -1,6 +1,6 @@
 The following walk through can be used to deploy WifiForge with minimal understanding and within minutes.
 ## Compatibility
-Wifi-Forge should work on any linux operating system using the docker image. The following Operating Systems have been tested and are confirmed to work.
+Wifi-Forge should work on any linux operating system using the docker container. The following Operating Systems have been tested and are confirmed to work.
 - Kali Linux 
 - Parrot OS
 - Ubuntu
@@ -19,7 +19,13 @@ service openvswitch-switch start
 cd /WifiForge/
 sudo python3 WifiForge.py
 ```
-Installing the docker image can take up too an hour but averages 30 minutes.
+Installing the docker container can take up too an hour but averages 30 minutes.
+
+## Starting Existing Docker Container
+After installation you can start an existing docker container and resume the labs with the following command:
+```bash
+sudo docker exec -it mininet-wifi /bin/bash
+```
 
 ## Installing from source
 This is less simple and may have more issues, however gives you more control over your experience.
