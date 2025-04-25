@@ -9,7 +9,7 @@ Two panes will appear in the resulting screen. One represents the attacking mach
 Click the area within the "**host_machine**" panel to ensure that the host machine terminal is selected. Type the following command to open a browser window. 
 
 ```bash
-/Wifi-Forge/Framework/materials/browser linux
+/Wifi-Forge/framework/lab_materials/browser linux
 ```
 
 Ignore any errors that appear on the command line. Wait for a chrome browser to appear as seen below.
@@ -19,7 +19,7 @@ Ignore any errors that appear on the command line. Wait for a chrome browser to 
 Insert the following filepath into your browser.
 
 ```bash
-file:///Wifi-Forge/Framework/materials/hashcat.net/cap2hashcat/index.html
+file:///Wifi-Forge/framework/lab_materials/hashcat.net/cap2hashcat/index.html
 ```
 
 The following site will appear in the browser window. 
